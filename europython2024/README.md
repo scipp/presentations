@@ -9,6 +9,6 @@ If yes, [``sciline``](https://scipp.github.io/sciline) may be interesting to you
 
 In this talk, we will introduce the ``sciline`` as a complex data process development framework. ``Sciline`` provides an automatic assembly of the task graph that can compute desired outputs or visualize the process to compute them. It is inspired by dependency injection frameworks, and it relies on Python’s type-hinting. As long as your interfaces are correctly type-hinted, you can use them with ``sciline`` right away!
 
-Sciline is developed for programmers and scientists to implement complicated data-processing workflows together in an efficient, consistent, clear, and sustainable way.
+Sciline is developed for programmers and scientists to implement complicated data-processing workflows together in an efficient, clear and maintainable way.
 With Sciline, our scientists can contribute to the development without knowing coding practices
 and we, developers, can easily understand the process without asking what ``x`` means here and there!
