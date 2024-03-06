@@ -1,14 +1,20 @@
-# No more spaghetti code: build reusable data pipeline with Sciline
+# Sciline: Assemble task graphs using type-hint-driven dependency injection
 
 ## Abstract
 
-Have you dealt with scary spaghetti code that was not written by yourself?
-Or are you the one who wrote them?
-Or do you want to have a visualization of the complicated data process but you do NOT want to use GUI-based frameworks?
-If yes, [``sciline``](https://scipp.github.io/sciline) may be interesting to you.
+Writing, testing, and maintaining complex data analysis workflows is hard.
+Boiler-plate code may hide the actual analysis, making it hard to understand.
+The code may be hard to test, leading to bugs.
 
-In this talk, we will introduce the ``sciline`` as a complex data process development framework. ``Sciline`` provides an automatic assembly of the task graph that can compute desired outputs or visualize the process to compute them. It is inspired by dependency injection frameworks, and it relies on Python’s type-hinting. As long as your interfaces are correctly type-hinted, you can use them with ``sciline`` right away!
+Workflow management systems like [AiiDA](https://www.aiida.net/) or [Snakemake](https://snakemake.readthedocs.io/en/stable/)
+can help with this by using a set of calculations or rules declaring their inputs and outputs.
+They then automatically assemble a task graph, and run the tasks in the correct order to compute the desired outputs.
+Tasks may be complex with many internal computation steps but splitting them may not be feasible, e.g., due to overhead.
+[Sciline](https://scipp.github.io/sciline) can be a solution here.
+It is a pure Python package with no dependencies, and it does not require invasive changes to your existing Python code.
 
-Sciline is developed for programmers and scientists to implement complicated data-processing workflows together in an efficient, clear and maintainable way.
-With Sciline, our scientists can contribute to the development without knowing coding practices
-and we, developers, can easily understand the process without asking what ``x`` means here and there!
+Sciline takes a *declarative* approach, inspired by [dependency injection](https://en.wikipedia.org/wiki/Dependency_injection) frameworks.
+By relying on Python's type-hinting, a [domain-specific language](https://en.wikipedia.org/wiki/Domain-specific_language) is used to describe the workflow.
+This enforces a clear expression of intent, aiding readability and enabling automatic assembly of a task graph that can compute desired outputs.
+The task graphs Sciline assembles can then be executed, e.g., using [Dask](https://dask.org/).
+
