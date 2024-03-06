@@ -20,7 +20,7 @@ This enforces a clear expression of the intent in Python code, aiding readabilit
 The task graphs Sciline assembles can be executed, e.g., using Dask's schedulers.
 Sciline's graphs can be visualized and intermediate results can be computed.
 The graph-based approach avoids reproducibility pitfalls, e.g., from running cells in a Jupyter Notebook out of order.
-Overall this makes it an valuable tool, assisting in workflow development and communication with Scientists.
+Overall this makes it a valuable tool, assisting in workflow development and communication with Scientists.
 
 ## Description
 This presentation will be in the form of a live demo of Sciline. Sciline is an open-source project developed by the European Spallation Source under the BSD-3 licence. It is installable on Linux, Mac and Windows via pip and conda, and the documentation is hosted at https://scipp.github.io/sciline . The source code can be found at https://github.com/scipp/sciline . Co-authors: Jan-Lukas Wynen, Johannes Kasimir, Neil Vaytet, Simon Heybrock, Sunyoung Yoo.
