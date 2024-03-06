@@ -18,3 +18,5 @@ By relying on Python's type-hinting, a [domain-specific language](https://en.wik
 This enforces a clear expression of intent, aiding readability and enabling automatic assembly of a task graph that can compute desired outputs.
 The task graphs Sciline assembles can then be executed, e.g., using [Dask](https://dask.org/).
 
+## Description
+This presentation will be in the form of a live demo of the Sciline. Sciline is an open-source project developed by the European Spallation Source under the BSD-3 licence. It is installable on Linux, Mac and Windows via pip and conda, and the documentation is hosted at https://scipp.github.io/sciline . The source code can be found at https://github.com/scipp . Co-authors: Jan-Lukas Wynen, Johannes Kasimir, Neil Vaytet, Simon Heybrock, Sunyoung Yoo.
