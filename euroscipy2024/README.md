@@ -41,3 +41,6 @@ The EuroSciPy tutorial will build up on top of our User Guides and our previous 
 
 No setup should be required as we will provide links to binder (or other online notebook service if necessary). The participants should be able to clone the repository and run the tutorial too.
 
+## Link to notebooks
+
+https://github.com/MridulS/scipp-tutorial-euroscipy24
