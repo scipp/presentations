@@ -13,8 +13,7 @@ our software from lower-level lower level data structure/computation cores to hi
 | -------- | ------------ | ----------- |
 | Scientific SW Core | scipp | `Scipp` is the core project of all our data reduction software. <br>`Scipp` enriches raw NumPy-like multi-dimensional arrays of data by adding named dimensions and associated coordinates. Generic functionality of `Scipp` is provided in the scipp Python package. In addition, more specific functionality is made available in other packages below. [^1]  |
 | Scientific SW Core | plopp | `plopp` supports scientific visualization using `scipp`. It provides various visualization from simple histogram to 3d instrument view and widgets with simple user interfaces. |
-| Scientific SW Core | sciline | sciline is a workflow framework
-using type hint based dependency injection. It comes with graph based workflow visualization and helps us to develop various workflows in a consistent way. |
+| Scientific SW Core | sciline | sciline is a workflow framework using type hint based dependency injection. It comes with graph based workflow visualization and helps us to develop various workflows in a consistent way. |
 | Generic Neutron Experiment Libraries | scippneutron | (scippneutron) hosts neutron related data structure and computation functionalities. For example, time-of-flight transformation to Q or (h,k,l) vectors. As ESS provides long-pulse source, scippneutron also have chopper tools that can be used to calculate more accurate wavelength from time of arrival. |
 | Generic Neutron Experiment Libraries | scippnexus | (scippnexus) is an IO interface between scipp data structure and NeXus(hdf5) files. <br> Scippnexus can load neutron event data along with corresponding static information such as pixel geometries. |
 | Generic Neutron Experiment Libraries | essreduce | (essreduce) provides generic workflows of neutron experiments data reduction dedicated to ESS. The generic workflows can be extended to be instrument/technique specific workflows. |
@@ -26,7 +25,7 @@ using type hint based dependency injection. It comes with graph based workflow v
 | Technique/Instrument Specific Data Reduction Libraries | essnmx | NMX |
 | Technique/Instrument Specific Data Reduction Libraries | essspectroscopy | BIFROST |
 | Technique/Instrument Specific Data Reduction Libraries | esspolarization | Any instruments that can be used for polirization experiments. |
-| Generic ESS Data Reduction Applications | beamlime | `beamlime` is a real time data reduction application that will be available for ESS experiments. It allows users to grab a better understanding of the current data acquisition at a glance. |
+| Generic ESS Data Reduction Applications | beamlime | Beamlime is a real time data reduction framework/application. It allows users to grab a better understanding of the current data acquisition at a glance. The visualized real time reduced data will be shown to user via NICOS, along with other real time information. *And, yes, sorry, it is a confusing name :)|
 | Interface with Ohter Services | scitacean | Scitacean is a high level Python package for downloading and uploading datasets from and to SciCat.|
 | Interface with Ohter Services | scitiff | Scitiff is a neutron imaging tiff format and metadata schema that also provides python IO interfaces. |
 
