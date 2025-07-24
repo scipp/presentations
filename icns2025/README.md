@@ -37,7 +37,7 @@ I could categorize the session topics like below:
 
 **I went through the program and categorized the session titles. It may missing some and I didn't use exact same words if it has overlapping words or numberings. The full list is in their [web page](https://www.icns2025.dk/programme/final-programme)**
 
-### Imaging Symposium Review - User Community Observation
+## Imaging Symposium Review - User Community Observation
 
 An imaging experiment is very either simple as they only need a very rough structural information or they need extreme amout of information in a case like high resolution tomography.
 
@@ -64,7 +64,7 @@ Here are some notes I took from the discussion about `scitiff`:
   - It seems like people agree that we need something like `scitiff` at least, even if they don't use our solution.
   - There is a high demand of GUI based interface.
 
-### WFM Poster session
+## WFM Poster session
 
 I also presented the WFM stitching method using MC simulations in the poster session.
 
@@ -78,7 +78,7 @@ There was another engineer/scientist from DTU Space who work on the chopper.
 She was interested in our chopper simulation methods and visualization/analysis tools.
 (I forgot what exactly we discussed about :D....)
 
-### User Needs Meeting - Needs for Centralized Online Space for Neutron Community
+## User Needs Meeting - Needs for Centralized Online Space for Neutron Community
 
 In the `User Needs` meeting, there was a discussion about lacking centralized source of information for neutron community.
 
@@ -95,3 +95,11 @@ Someone pointed out that the smaller facilities were not acknowledged enough and
 As ESS representative mentioned that we don't want a lot of users, but the right users, ESS maybe be maintaining the centralized online space for all neutron community so that any users can easily tell which facility/technique they can benefit from their science cases...?
 
 There are not so many of neutron facilities in the world...!
+
+## Visit to ESS/Loop
+
+It was a fun experience for myself to explore the instruments and see them in person and have a better feeling of how users will be using our software in the office space.
+
+I realized physical environment will also affect user behaviours/expectations about software.
+
+And there was always coffee and cake in the Loop not like the bella centre in Cph :D...!
